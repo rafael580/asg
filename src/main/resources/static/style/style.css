@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
+
+table {
+  width: 100%;
+}
+
+.container  {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.login-header {
+margin: 80px 0 20px 0;
+}
+
+.login-header h1 {
+  font-size: 24px;
+}
+
+.form-header {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px ;
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  height: 40px;
+}
+
+.errorMessage label {
+  display: none;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-bottom: 16px;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  line-height: 24px;
+}
+
+.form-submit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 6px 10px;
+  background-color: #043975;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.copy {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.form-control-login {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* Dashboard - Index */
+
+.menu {
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.menu-lista {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+.menu-lista a {
+  list-style: none;
+  color: gray;
+}
+
+.dashboard-vehicle-list {
+  list-style: none;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+.dashboard-vehicle-list li {
+  margin-bottom: 20px;
+}
+
+/* User Details */
+.user-details-title {
+  margin-bottom: 20px;
+}
+
+/* Vehicle Details */
+.vehicle-list {
+  margin-bottom: 20px;
+}

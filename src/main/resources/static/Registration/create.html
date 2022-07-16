@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create - VSAS</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <div class="container">
+  <header class="login-header">
+    <h1>
+      Welcome to VSAS
+    </h1>
+  </header>
+  
+  <main>
+    <div class="errorMessage">
+      <label>Invalid Attempt, Please try again.</label>
+    </div>
+    <header class="form-header">
+      <h1>Register</h1>
+    </header>
+    <form action="" id="customerForm">
+      <div class="form-control">
+        <label for="firstName">First Name</label>
+        <input
+          class="form-input"
+          type="text" 
+          id="firstName">
+      </div>
+      <div class="form-control">
+        <label for="lastName">Last Name</label>
+        <input
+          class="form-input"
+          type="text" 
+          id="lastName">
+      </div>
+      <div class="form-control">
+        <label for="emailId">Email Id</label>
+        <input
+          class="form-input"
+          type="text" 
+          id="emailId">
+      </div>
+      <div class="form-control">
+        <label for="contactNumber">Contract Number</label>
+        <input
+          class="form-input"
+          type="text" 
+          id="contactNumber">
+      </div>
+      <div class="form-control">
+        <label for="passcode">Passcode</label>
+        <input
+          class="form-input"
+          type="text" 
+          id="passcode">
+      </div>
+      <div class="form-submit">
+        <button
+          class="button"
+          id="register" type="submit" >
+            Register
+        </button>
+      </div>
+      <div class="form-control-login">
+        <a href="../login" id="login">Login</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="copy">
+    @2022 - VSAS -&nbsp;<a href="#">Policy</a>
+  </footer>
+</div>
+
+  <script src="../js/jquerylib.js"></script>
+  <script src="../js/create.js"></script>
+</body>
+</html>
